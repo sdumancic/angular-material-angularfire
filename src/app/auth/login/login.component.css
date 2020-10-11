@@ -1,0 +1,52 @@
+mat-form-field {
+  width: 300px;
+}
+
+.parent {
+  background-color: pink;
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1{
+  background-color: aliceblue;
+  margin: 5px;
+  }
+
+.div2{
+  background-color: aliceblue;
+  margin: 5px;
+  width: 150px;
+  font-size: 30px;
+}
+
+.div3{
+  background-color: aliceblue;
+  margin: 5px;
+  height: 150px;
+}
+
+.div4{
+  background-color: aliceblue;
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+}
+
+.div5{
+  background-color: aliceblue;
+  margin: 5px;
+  width: 200px;
+  flex: 1 1 auto; /* flex-grow flex-shrink flex-basis */
+}
+
+.div6{
+  background-color: aliceblue;
+  margin: 5px;
+  width: 200px;
+  flex: 1 1 100px;
+}
